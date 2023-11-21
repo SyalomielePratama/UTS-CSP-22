@@ -1,0 +1,232 @@
+:root{
+    --teal:#c2efd4;
+    --hijau:#224f34;
+    --hujauTua:#112c1c;
+    --putih:#fff;
+    --abuterang:#e9e8ec;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+/* style home */
+
+header{
+    background-color: var(--teal);
+    padding: 1rem 5rem;
+    font-size: 1.2em;
+}
+
+header .logo{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover{
+    color: var(--hujauTua);
+}
+
+#hero{
+    height: 100vh;
+    padding-top: 50px;
+    background-color: var(--teal);
+}
+
+#hero .kotak-tag{
+    border-radius: 100px 0px 100px 30px;
+    max-width: 50%;
+    background-color: var(--hijau);
+    margin-bottom: 10px;
+}
+
+#hero .gambar-hero{
+    width: 50vh;
+    /* filter: drop-shadow(16px 7px 10px #dddddda7); */
+}
+
+#hero .tagline{
+    max-width: 50vh;
+}
+
+#hero h1{
+    color: var(--hijau);
+    text-align: left;
+    max-width: 60%;
+    font-size: 3.4em;
+}
+
+#hero h2{
+    font-size: medium;
+    text-align: left;
+    max-width: 60%;
+    font-weight: 500;
+}
+
+#hero a{
+    padding: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: var(--hujauTua);
+    color: var(--putih);
+    transition: all 0.3s ease 0s;
+}
+
+#hero a:hover{
+    color:var(--putih);
+    background-color: var(--hijau);
+}
+
+#produk h2{
+    color: var(--hijau);
+    margin-top: 5%;
+}
+
+#produk p{
+    color: var(--hijau);
+}
+
+#produk img{
+    width: 40vh;
+    /* filter: drop-shadow(16px 7px 10px var(--teal)); */
+}
+
+#produk span{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#produk span.price{
+    font-weight: 300;
+}
+
+#produk a{
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid var(--hijau);
+    width: 200px;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--hijau);
+}
+
+#produk a:hover{
+    background-color: var(--hijau);
+    color: var(--putih);
+}
+
+#offer h1{
+    color: var(--hijau);
+    font-size: 2.5em;
+}
+
+#offer img{
+    max-width: 40%;
+}
+
+#offer p{
+    max-width: 70%;
+}
+
+#offer{
+    padding:3% 0 0 0;
+    margin: 5% 10% 0px 10%;
+    background-color: var(--teal);
+}
+
+#offer a{
+    background-color: var(--hujauTua);
+    padding: 7px;
+    border-radius: 7px;
+    width: 200px;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--putih);
+}
+
+#offer a:hover{
+    background-color: var(--hijau);
+    color: var(--putih);
+}
+
+
+#produk .tombol{
+    padding: 40px 0px;
+}
+
+#design h2{
+    margin-top: 5%;
+    color: var(--hijau);
+}
+
+#design p{
+    color: var(--hijau);
+}
+
+#design img{
+    width: 40vh;
+    /* filter: drop-shadow(16px 7px 10px var(--teal)); */
+}
+
+#design .kotak1{
+    max-width: 90%;
+    background-color: var(--teal);
+}
+
+#design .kotak2{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#design .kotak3{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+
+#design .d1{
+    width: 60vh;
+}
+
+#design .d2{
+    width: 27vh;
+}
+
+#design .d3{
+    width: 30vh;
+}
+
+#design span{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#design p.ket{
+    font-weight: 300;
+    max-width: 70%;
+    color: black;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: var(--hijau);
+    padding: 10px;
+    color: var(--putih);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--putih);
+}
+
+/* end style home */

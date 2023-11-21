@@ -1,0 +1,200 @@
+:root{
+    --teal:#c2efd4;
+    --hijau:#224f34;
+    --hujauTua:#112c1c;
+    --putih:#fff;
+    --abuterang:#e9e8ec;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+/* style produk */
+
+header{
+    background-color: var(--teal);
+    padding: 1rem 5rem;
+    font-size: 1.2em;
+}
+
+header .logo{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover{
+    color: var(--hujauTua);
+}
+
+#produk h1 {
+    color: var(--hijau);
+}
+
+#produk p{
+    color: var(--hijau);
+}
+
+#produk img{
+    width: 40vh;
+    /* filter: drop-shadow(16px 7px 10px var(--teal)); */
+}
+
+#produk .kotak1{
+    max-width: 90%;
+    background-color: var(--teal);
+}
+
+#produk .kotak2{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak3{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak4{
+    max-width: 90%;
+    background-color: var(--teal);
+}
+
+#produk .kotak5{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak6{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak7{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak8{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+#produk .kotak9{
+    max-width: 90%;
+    background-color: var(--abuterang);
+}
+
+#produk .d1{
+    width: 60vh;
+}
+
+#produk .d2{
+    width: 29vh;
+}
+
+#produk .d3{
+    width: 27vh;
+}
+#produk .d4{
+    width: 60vh;
+}
+
+#produk .d5{
+    width: 27vh;
+}
+
+#produk .d6{
+    width: 28vh;
+}
+#produk .d7{
+    width: 27vh;
+}
+
+#produk .d8{
+    width: 38vh;
+}
+
+#produk .d9{
+    width: 26vh;
+}
+
+#produk span{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#produk p.ket{
+    font-weight: 300;
+    max-width: 70%;
+    color: black;
+}
+
+#form{
+    /* margin-top: 5%; */
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#form h2{
+    text-align: center;
+}
+
+#form form{
+    padding: 10px;
+    border: 3px solid var(--teal);
+}
+
+#form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#form td {
+    padding: 15px;
+    text-align: left;
+}
+
+#form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#form select, input[type="text"], input[type="number"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: var(--hijau);
+    padding: 10px;
+    color: var(--putih);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--putih);
+}

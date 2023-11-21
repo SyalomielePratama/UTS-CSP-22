@@ -1,0 +1,133 @@
+:root{
+    --teal:#c2efd4;
+    --hijau:#224f34;
+    --hujauTua:#112c1c;
+    --putih:#fff;
+    --abuterang:#e9e8ec;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+/* style about */
+
+header{
+    background-color: var(--teal);
+    padding: 1rem 5rem;
+    font-size: 1.2em;
+}
+
+header .logo{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover{
+    color: var(--hujauTua);
+}
+
+#about{
+    height: 90vh;
+    background-color: var(--teal);
+}
+
+#about .tentang{
+    max-width: 70%;
+    margin: auto;
+}
+
+#about span{
+    color: var(--hijau);
+    font-size: 2em;
+}
+
+#about h1{
+    color: var(--hijau);
+    font-size: 2em;
+    text-align: left;
+}
+
+#about img{
+    width: 100%;
+}
+
+#about p{
+    font-size: 1.1em;
+}
+
+#desc{
+    padding: 0px 30px 0px 30px;
+}
+
+#desc h1{
+    margin-top: 5%;
+    text-align: center;
+    color: var(--hijau);
+}
+
+#desc .img-1{
+    margin-top: 20px;
+    padding: 0px 10px 0px 0px;
+}
+
+#desc .img-2{
+    width: 90%;
+}
+
+#desc #text{
+    color: var(--hijau);
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#feedback{
+    padding: 0 20px 0 20px;
+}
+
+#feedback h1{
+    text-align: center;
+    color: var(--hijau);
+    margin-top: 5%;
+}
+
+#feedback .kotak{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px ;
+    border: 2px solid var(--teal);
+    text-align: center;
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+#feedback .kotak:hover{
+    background-color: var(--teal);
+}
+
+#feedback h2{
+    font-size: 2.5em;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: var(--hijau);
+    padding: 10px;
+    color: var(--putih);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--putih);
+}
+
+/* end about */

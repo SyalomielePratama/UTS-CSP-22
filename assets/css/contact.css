@@ -1,0 +1,94 @@
+:root{
+    --teal:#c2efd4;
+    --hijau:#224f34;
+    --hujauTua:#112c1c;
+    --putih:#fff;
+    --abuterang:#e9e8ec;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+/* style contact */
+
+header{
+    background-color: var(--teal);
+    padding: 1rem 5rem;
+    font-size: 1.2em;
+}
+
+header .logo{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--hijau);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover{
+    color: var(--hujauTua);
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input[type="text"], input[type="email"], textarea, input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#contact textarea {
+    height: 100px;
+}
+
+#contact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: var(--hijau);
+    padding: 10px;
+    color: var(--putih);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--putih);
+}
